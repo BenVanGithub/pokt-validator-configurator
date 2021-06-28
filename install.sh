@@ -54,7 +54,7 @@ else
       echo PROCEEDING...
 fi
 
-sudo go build -o $GOPATH/bin/pocket ./app/cmd/pocket_core/main.go
+go build -o $GOPATH/bin/pocket ./app/cmd/pocket_core/main.go
 
 sleep 2
 if [[ "$M_T_NETWORK" == "M" ]]; then
